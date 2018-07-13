@@ -13,7 +13,7 @@ module.exports = {
   },
 
   // Database
-  databaseUrl: process.env.DATABASE_URL || 'sqlite:database.sqlite',
+  databaseUrl: 'postgres://hkcrcdddadnvsq:2ac04f440d1273483c024e3431ecfe577ebf7d1909290ef9af3eb3be51ca2d7a@ec2-54-83-59-239.compute-1.amazonaws.com:5432/d7t5936a6vtd2t',
 
   // Web analytics
   analytics: {
